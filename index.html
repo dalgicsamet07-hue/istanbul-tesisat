@@ -3,160 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sıhhi Tesisat Tamirat | 0552 462 82 51</title>
-    
-    <meta name="description" content="Sıhhi tesisat tamirat, su kaçağı tespiti, tıkanıklık açma hizmetleri. 7/24 hizmet için hemen arayın: 0552 462 82 51">
-    <meta name="keywords" content="tesisatçı, sıhhi tesisat, su kaçağı, gider açma, tesisat tamiri">
-
+    <title>İstanbul Sıhhi Tesisat Tamirat | 0552 462 82 51</title>
+    <meta name="description" content="İstanbul geneli tüm semtlerde 7/24 sıhhi tesisat tamirat, su kaçağı tespiti ve tıkanıklık açma.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
     <style>
-        :root {
-            --primary: #0a4d68;
-            --secondary: #083344;
-            --accent: #e63946;
-            --success: #25D366;
-            --light: #f5f5f5;
-        }
-
+        :root { --primary: #0a4d68; --secondary: #083344; --accent: #e63946; --success: #25D366; --light: #f5f5f5; }
         body { margin:0; font-family: 'Segoe UI', Arial, sans-serif; background: var(--light); color: #333; line-height: 1.6; }
-        
-        header { background: var(--primary); color: white; padding: 40px 20px; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        header h1 { margin: 0; font-size: 2.5rem; }
-        header p { margin: 10px 0 0; opacity: 0.9; font-size: 1.2rem; }
-
-        nav { background: var(--secondary); padding: 15px; text-align: center; position: sticky; top: 0; z-index: 100; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; transition: 0.3s; }
-        nav a:hover { color: var(--accent); }
-
-        .container { max-width: 800px; margin: auto; padding: 20px; }
-        
-        h1, h2 { color: var(--primary); border-bottom: 2px solid var(--primary); padding-bottom: 10px; }
-
-        .action-buttons { text-align: center; margin: 30px 0; }
-        .btn {
-            padding: 15px 30px;
-            color: white;
-            border-radius: 50px;
-            text-decoration: none;
-            display: inline-block;
-            margin: 10px;
-            font-size: 1.1rem;
-            font-weight: bold;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-            transition: transform 0.2s;
-        }
-        .btn:active { transform: scale(0.95); }
+        header { background: var(--primary); color: white; padding: 30px 20px; text-align: center; }
+        nav { background: var(--secondary); padding: 12px; text-align: center; position: sticky; top: 0; z-index: 100; }
+        nav a { color: white; margin: 0 10px; text-decoration: none; font-weight: bold; font-size: 0.9rem; }
+        .container { max-width: 900px; margin: auto; padding: 20px; }
+        .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 20px; border-left: 5px solid var(--primary); }
+        .btn { padding: 15px 25px; color: white; border-radius: 50px; text-decoration: none; display: inline-block; margin: 10px; font-weight: bold; }
         .call { background: var(--accent); }
         .whatsapp { background: var(--success); }
-
-        .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin: 20px 0; }
-        .card {
-            background: white;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-            display: flex;
-            align-items: center;
-            border-left: 5px solid var(--primary);
-        }
-        .card i { color: var(--success); margin-right: 15px; font-size: 1.2rem; }
-
-        .contact-form { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
-        input, textarea { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ddd; border-radius: 8px; box-sizing: border-box; }
-        button { padding: 15px; background: var(--primary); color: white; border: none; width: 100%; border-radius: 8px; cursor: pointer; font-size: 1rem; font-weight: bold; }
-        button:hover { background: var(--secondary); }
-
-        footer { background: #222; color: white; text-align: center; padding: 30px; margin-top: 40px; }
-        
-        .whatsapp-fixed {
-            position: fixed;
-            bottom: 25px;
-            right: 25px;
-            background: var(--success);
-            color: white;
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 30px;
-            text-decoration: none;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-            z-index: 1000;
-        }
-
-        @media (max-width: 600px) {
-            header h1 { font-size: 1.8rem; }
-            .btn { width: 100%; box-sizing: border-box; margin: 5px 0; }
-        }
+        .area-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; background: #fff; padding: 15px; border-radius: 10px; font-size: 0.8rem; }
+        .area-item { color: #666; border-bottom: 1px solid #eee; padding: 2px 0; }
+        footer { background: #222; color: white; text-align: center; padding: 20px; margin-top: 30px; }
+        .whatsapp-fixed { position: fixed; bottom: 20px; right: 20px; background: var(--success); color: white; width: 55px; height: 55px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 25px; text-decoration: none; z-index: 1000; }
     </style>
 </head>
-
 <body>
 
 <header>
-    <h1>Sıhhi Tesisat Tamirat</h1>
-    <p><i class="fas fa-tools"></i> Hızlı - Güvenilir - 7/24 Hizmet</p>
+    <h1>İstanbul Sıhhi Tesisat</h1>
+    <p>7/24 Hızlı Müdahale: 0552 462 82 51</p>
 </header>
 
 <nav>
     <a href="#hizmetler">Hizmetler</a>
-    <a href="#hakkimizda">Neden Biz?</a>
+    <a href="#bolgeler">Bölgeler</a>
     <a href="#iletisim">İletişim</a>
 </nav>
 
 <div class="container">
-
-    <section style="text-align: center; margin-bottom: 40px;">
-        <h2>0552 462 82 51 Tesisatçı Hizmeti</h2>
-        <p>Su kaçağı, tıkanıklık ve tüm sıhhi tesisat sorunlarını hızlı ve garantili çözüyoruz. Profesyonel ekip ve uygun fiyat ile hizmetinizdeyiz.</p>
-        
-        <div class="action-buttons">
-            <a href="tel:05524628251" class="btn call"><i class="fas fa-phone"></i> Hemen Ara</a>
-            <a href="https://wa.me/905524628251" class="btn whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-        </div>
+    <section class="card" style="text-align: center;">
+        <h2>Profesyonel Tesisat Çözümleri</h2>
+        <p>Kırmadan su kaçağı tespiti ve robotla tıkanıklık açma işlemlerinde İstanbul'un her yerindeyiz.</p>
+        <a href="tel:05524628251" class="btn call">📞 Hemen Ara</a>
+        <a href="https://wa.me/905524628251" class="btn whatsapp">💬 WhatsApp</a>
     </section>
 
-    <h2 id="hizmetler">Hizmetlerimiz</h2>
-    <div class="card-grid">
-        <div class="card"><i class="fas fa-check-circle"></i> Su Kaçağı Tespiti (Kırmadan)</div>
-        <div class="card"><i class="fas fa-check-circle"></i> Tıkalı Gider Açma</div>
-        <div class="card"><i class="fas fa-check-circle"></i> Musluk & Batarya Tamiri</div>
-        <div class="card"><i class="fas fa-check-circle"></i> Klozet ve Lavabo Tamiri</div>
-        <div class="card"><i class="fas fa-check-circle"></i> Kombi Tesisatı</div>
-    </div>
+    <section id="hizmetler" class="card">
+        <h2>Neler Yapıyoruz?</h2>
+        <p><strong>İstanbul tesisatçı</strong> ihtiyacınızda; kameralı sistemlerle sızıntı bulma, pimaş açma, klozet tamiri ve musluk değişimlerini garantili yapıyoruz. 30 dakikada servis imkanıyla mağduriyetinizi gideriyoruz.</p>
+    </section>
 
-    <h2 id="hakkimizda">Neden Biz?</h2>
-    <div class="card-grid">
-        <div class="card"><i class="fas fa-clock"></i> 7/24 Acil Servis</div>
-        <div class="card"><i class="fas fa-lira-sign"></i> Uygun Fiyat</div>
-        <div class="card"><i class="fas fa-user-shield"></i> Deneyimli Usta</div>
-        <div class="card"><i class="fas fa-bolt"></i> Hızlı Müdahale</div>
+    <h2 id="bolgeler">Hizmet Bölgelerimiz</h2>
+    <div class="area-list">
+        <div class="area-item">Arnavutköy</div><div class="area-item">Avcılar</div><div class="area-item">Bağcılar</div>
+        <div class="area-item">Bahçelievler</div><div class="area-item">Bakırköy</div><div class="area-item">Başakşehir</div>
+        <div class="area-item">Bayrampaşa</div><div class="area-item">Beşiktaş</div><div class="area-item">Beylikdüzü</div>
+        <div class="area-item">Beyoğlu</div><div class="area-item">Büyükçekmece</div><div class="area-item">Çatalca</div>
+        <div class="area-item">Esenyurt</div><div class="area-item">Eyüpsultan</div><div class="area-item">Fatih</div>
+        <div class="area-item">Gaziosmanpaşa</div><div class="area-item">Güngören</div><div class="area-item">Kağıthane</div>
+        <div class="area-item">Küçükçekmece</div><div class="area-item">Sarıyer</div><div class="area-item">Silivri</div>
+        <div class="area-item">Sultangazi</div><div class="area-item">Şişli</div><div class="area-item">Zeytinburnu</div>
+        <div class="area-item">Kadıköy</div><div class="area-item">Üsküdar</div><div class="area-item">Ümraniye</div>
+        <div class="area-item">Maltepe</div><div class="area-item">Kartal</div><div class="area-item">Pendik</div>
     </div>
-
-    <h2 id="iletisim">Bize Ulaşın</h2>
-    <div class="contact-form">
-        <form>
-            <input type="text" placeholder="Adınız" required>
-            <input type="tel" placeholder="Telefon Numaranız" required>
-            <textarea placeholder="Sorununuz nedir?" rows="4" required></textarea>
-            <button type="submit">Mesaj Gönder</button>
-        </form>
-    </div>
-
 </div>
 
 <footer>
-    <p>© 2026 Sıhhi Tesisat Tamirat | Tüm Hakları Saklıdır.</p>
-    <p><i class="fas fa-phone"></i> 0552 462 82 51</p>
+    <p>0552 462 82 51 | istanbultesisat.github.io</p>
 </footer>
 
-<a href="https://wa.me/905524628251" class="whatsapp-fixed">
-    <i class="fab fa-whatsapp"></i>
-</a>
+<a href="https://wa.me/905524628251" class="whatsapp-fixed"><i class="fab fa-whatsapp"></i></a>
 
 </body>
-      </html>
-  
+</html>
